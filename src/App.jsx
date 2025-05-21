@@ -2,7 +2,8 @@ import { Toaster } from "react-hot-toast";
 import { useRoutes } from "react-router-dom";
 
 function App() {
-  const routes = [];
+  const routes = [
+  ];
   const element = useRoutes(routes);
   return (
     <main>
